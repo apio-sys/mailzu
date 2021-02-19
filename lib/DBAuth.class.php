@@ -27,7 +27,7 @@ if ($GLOBALS['conf']['app']['safeMode']) {
     ini_set('include_path', (dirname(__FILE__) . '/pear/' . PATH_SEPARATOR . ini_get('include_path')));
     include_once('pear/DB.php');
 } else {
-    include_once('DB.php');
+    include_once('lib/pear/DB.php');
 }
 
 /**
