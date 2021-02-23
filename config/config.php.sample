@@ -415,7 +415,7 @@ $conf['app']['siteSummary'] = 1;
 // No message is displayed when clicking on 'Site quarantine'.
 // Keep the default for for large sites.
 // $conf['app']['searchOnly'] = 1
-$conf['app']['searchOnly'] = 1;
+$conf['app']['searchOnly'] = 0;
 
 // The default language code.  This must be included in the language list in
 // langs.php
@@ -429,12 +429,12 @@ $conf['app']['selectLanguage'] = '1';
 // If you are running PHP in safe mode, set this value to 1.
 // This toggles if we use the included Pear DB and Mail_Mime libraries included
 // with this distribution
-$conf['app']['safeMode'] = 0;
+$conf['app']['safeMode'] = 1;
 
 // View time in 12 or 24 hour format [12]
 // Only acceptable values are 12 and 24 (if an invalid number is set, 12 hour
 // time will be used)
-$conf['app']['timeFormat'] = 12;
+$conf['app']['timeFormat'] = 24;
 
 // Title of application ['MailZu']
 // Will be used for page titles and in 'From' field of email responses
